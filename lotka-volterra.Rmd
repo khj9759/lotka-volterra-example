@@ -7,7 +7,9 @@ output: html_document
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
 library(tidyverse)
+install.packages("deSolve")
 library(deSolve)
+install.packages("kableExtra")
 library(kableExtra)
 ```
 
@@ -82,5 +84,7 @@ What happens as you change the different parameters (and re-run the entire code 
 
 -   $\alpha$ is a growth rate for prey
 -   $\gamma$ is a mortality rate for predator
+
+## change
 
 ## End
